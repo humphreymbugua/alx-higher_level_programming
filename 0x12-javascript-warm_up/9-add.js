@@ -6,5 +6,5 @@ function add(a, b) {
 if (process.argv[2] === undefined || process.argv[3] === undefined) {
   console.log('NaN');
 } else {
-  console.log(add(process.arg[2], process.arg[3]));
+  console.log(add(process.argv[2], process.arg[3]));
 }
